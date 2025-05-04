@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #1877f2; /* 파란색 (Facebook 메인 색상) */
+  --primary-hover-color: #166fe6; /* 호버 시 약간 더 진한 파란색 */
+  --secondary-color: #e4e6eb; /* 밝은 회색 (배경, 구분선 등) */
+  --secondary-hover-color: #d3d6da; /* 호버 시 약간 더 어두운 회색 */
+  --text-primary-color: #050505; /* 주요 텍스트 색상 (검정색) */
+  --text-secondary-color: #65676b; /* 보조 텍스트 색상 (회색) */
+  --accent-color: #f02849; /* 강조 색상 (알림, 빨간색 계열) */
+  --white-color: #ffffff; /* 흰색 배경 및 텍스트 */
+  --black-color: #000000; /* 검정색 */
+  --border-color: #ccd0d5; /* 얇은 테두리 색상 */
+  --success-color: #42b72a; /* 성공 관련 색상 (녹색) */
+  --warning-color: #ffc107; /* 경고 관련 색상 (노란색) */
+  --danger-color: #dc3545; /* 위험 관련 색상 (빨간색) */
+}
+
+.button-primary {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  background-color: var(--primary-hover-color);
+}
+
+.card {
+  background-color: var(--white-color);
+  border: 1px solid var(--border-color);
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.text-secondary {
+  color: var(--text-secondary-color);
+  font-size: 0.9em;
+}
